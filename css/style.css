@@ -8,3 +8,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* =================================
+   2. ROOT VARIABLES
+================================= */
+
+:root {
+    --background: #101827;
+    --surface: #182638;
+    --primary: #B7F36B;
+    --text: #F4F7F2;
+    --secondary-text: #A7B0BC;
+}
