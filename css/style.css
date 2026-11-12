@@ -74,3 +74,9 @@ nav ul li a {
     font-size: 14px;
     transition: color 0.3s ease;
 }
+
+/* Hover effect */
+
+nav ul li a:hover {
+    color: var(--primary);
+}
