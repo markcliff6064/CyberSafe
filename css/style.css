@@ -46,3 +46,16 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+
+/* Website logo */
+
+.logo {
+    color: var(--text);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: var(--primary);
+}
