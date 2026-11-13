@@ -91,7 +91,7 @@ nav ul li a:hover {
 
     display: grid;
 
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
 
     align-items: center;
 
@@ -191,7 +191,7 @@ nav ul li a:hover {
 }
 
 .btn-primary:hover {
-    transform: translateY(-3px);
+    transform: translateY(-6px);
 
     box-shadow: 0 8px 20px rgba(183, 243, 107, 0.2);
 }
@@ -264,7 +264,7 @@ nav ul li a:hover {
 
     border: 1px solid #34475b;
 
-    border-radius: 20px;
+    border-radius: 30px;
 
     display: flex;
 
