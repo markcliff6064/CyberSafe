@@ -605,3 +605,36 @@ nav ul li a:hover {
     text-decoration: underline;
 
 }
+
+
+/* =================================
+   12. THREATS MOBILE RESPONSIVENESS
+================================= */
+
+@media (max-width: 600px) {
+
+    .threats {
+
+        padding: 70px 5%;
+
+    }
+
+    .section-heading h2 {
+
+        font-size: 30px;
+
+    }
+
+    .threat-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .threat-card {
+
+        padding: 25px;
+
+    }
+
+}
