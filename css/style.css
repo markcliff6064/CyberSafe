@@ -516,7 +516,7 @@ nav ul li a:hover {
 
 .threat-card:hover {
 
-    transform: translateY(-5px);
+    transform: translateY(-10px);
 
     border-color: var(--primary);
 
