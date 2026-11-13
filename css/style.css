@@ -129,7 +129,7 @@ nav ul li a:hover {
 /* Main heading */
 
 .hero-content h1 {
-    font-size: clamp(42px, 5vw, 68px);
+    font-size: clamp(42px, 5vw, 75px);
 
     line-height: 1.1;
 
