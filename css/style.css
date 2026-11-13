@@ -638,3 +638,125 @@ nav ul li a:hover {
     }
 
 }
+
+
+/* =================================
+   13. SAFETY TIPS SECTION
+================================= */
+
+.safety-tips {
+    padding: 100px 8%;
+
+    background-color: var(--background);
+}
+
+/* Tips container */
+
+.tips-container {
+    max-width: 950px;
+
+    margin: auto;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 18px;
+}
+
+/* Individual tip */
+
+.tip-item {
+    display: flex;
+
+    align-items: center;
+
+    gap: 25px;
+
+    background-color: var(--surface);
+
+    border: 1px solid #34475B;
+
+    border-radius: 12px;
+
+    padding: 25px 30px;
+
+    transition: 0.3s ease;
+}
+
+/* Hover effect */
+
+.tip-item:hover {
+    border-color: var(--primary);
+
+    transform: translateX(5px);
+}
+
+/* Number */
+
+.tip-number {
+    color: var(--primary);
+
+    font-size: 22px;
+
+    font-weight: bold;
+}
+
+/* Tip content */
+
+.tip-content {
+    flex: 1;
+}
+
+.tip-content h3 {
+    font-size: 18px;
+
+    margin-bottom: 7px;
+}
+
+.tip-content p {
+    color: var(--secondary-text);
+
+    font-size: 14px;
+
+    line-height: 1.7;
+}
+
+/* Tip category */
+
+.tip-tag {
+    color: var(--primary);
+
+    font-size: 10px;
+
+    letter-spacing: 1px;
+
+    font-weight: bold;
+
+    white-space: nowrap;
+}
+
+/* Mobile layout */
+
+@media (max-width: 600px) {
+
+    .safety-tips {
+        padding: 70px 5%;
+    }
+
+    .tip-item {
+        align-items: flex-start;
+
+        flex-direction: column;
+
+        gap: 12px;
+
+        padding: 22px;
+    }
+
+    .tip-tag {
+        white-space: normal;
+    }
+
+}
+
