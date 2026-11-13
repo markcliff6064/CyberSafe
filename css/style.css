@@ -478,3 +478,130 @@ nav ul li a:hover {
 
     line-height: 1.8;
 }
+
+
+/* =================================
+   11. THREAT CARDS GRID
+================================= */
+
+.threat-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 25px;
+
+}
+
+/* Individual card */
+
+.threat-card {
+
+    background-color: var(--surface);
+
+    border: 1px solid #34475B;
+
+    border-radius: 12px;
+
+    padding: 30px;
+
+    position: relative;
+
+    transition: 0.3s ease;
+
+}
+
+/* Card hover effect */
+
+.threat-card:hover {
+
+    transform: translateY(-5px);
+
+    border-color: var(--primary);
+
+}
+
+/* Card number */
+
+.threat-number {
+
+    color: #66758A;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    margin-bottom: 20px;
+
+}
+
+/* Card icon */
+
+.threat-icon {
+
+    width: 55px;
+
+    height: 55px;
+
+    background-color: rgba(183, 243, 107, 0.1);
+
+    border-radius: 10px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 26px;
+
+    margin-bottom: 22px;
+
+}
+
+/* Card heading */
+
+.threat-card h3 {
+
+    font-size: 21px;
+
+    margin-bottom: 12px;
+
+}
+
+/* Card description */
+
+.threat-card p {
+
+    color: var(--secondary-text);
+
+    font-size: 14px;
+
+    line-height: 1.8;
+
+    margin-bottom: 22px;
+
+}
+
+/* Card link */
+
+.threat-card a {
+
+    color: var(--primary);
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+}
+
+/* Card link hover */
+
+.threat-card a:hover {
+
+    text-decoration: underline;
+
+}
