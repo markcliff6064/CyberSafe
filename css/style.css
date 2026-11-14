@@ -963,3 +963,144 @@ nav ul li a:hover {
     }
 
 }
+
+
+/* =================================
+   16. WEBSITE FOOTER
+================================= */
+
+.footer {
+
+    background-color: #0B1220;
+
+    padding: 65px 8% 25px;
+
+    border-top: 1px solid #34475B;
+
+}
+
+/* Main footer layout */
+
+.footer-container {
+
+    display: grid;
+
+    grid-template-columns: 2fr 1fr 1fr;
+
+    gap: 60px;
+
+    padding-bottom: 45px;
+
+}
+
+/* Footer logo */
+
+.footer-logo {
+
+    color: var(--text);
+
+    font-size: 25px;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+}
+
+.footer-logo span {
+
+    color: var(--primary);
+
+}
+
+/* About description */
+
+.footer-about p {
+
+    color: var(--secondary-text);
+
+    font-size: 14px;
+
+    line-height: 1.8;
+
+    max-width: 350px;
+
+    margin-top: 18px;
+
+}
+
+/* Footer headings */
+
+.footer-links h3 {
+
+    color: var(--text);
+
+    font-size: 16px;
+
+    margin-bottom: 20px;
+
+}
+
+/* Footer lists */
+
+.footer-links ul {
+
+    list-style: none;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+
+}
+
+/* Footer links */
+
+.footer-links ul li a {
+
+    color: var(--secondary-text);
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    transition: 0.3s ease;
+
+}
+
+/* Footer hover */
+
+.footer-links ul li a:hover {
+
+    color: var(--primary);
+
+}
+
+/* Footer bottom */
+
+.footer-bottom {
+
+    border-top: 1px solid #34475B;
+
+    padding-top: 22px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 15px;
+
+    flex-wrap: wrap;
+
+}
+
+.footer-bottom p {
+
+    color: var(--secondary-text);
+
+    font-size: 12px;
+
+}
