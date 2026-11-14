@@ -809,7 +809,7 @@ nav ul li a:hover {
 
 .guide-card:hover {
 
-    transform: translateY(-5px);
+    transform: translateY(-8px);
 
     border-color: var(--primary);
 
