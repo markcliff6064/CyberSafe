@@ -1104,3 +1104,58 @@ nav ul li a:hover {
     font-size: 12px;
 
 }
+
+
+/* =================================
+   17. FOOTER RESPONSIVENESS
+================================= */
+
+@media (max-width: 768px) {
+
+    .footer-container {
+
+        grid-template-columns: 1fr 1fr;
+
+        gap: 35px;
+
+    }
+
+    .footer-about {
+
+        grid-column: 1 / -1;
+
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .footer {
+
+        padding: 50px 5% 20px;
+
+    }
+
+    .footer-container {
+
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+
+    }
+
+    .footer-about {
+
+        grid-column: auto;
+
+    }
+
+    .footer-bottom {
+
+        align-items: flex-start;
+
+        flex-direction: column;
+
+    }
+
+}
