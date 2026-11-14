@@ -922,3 +922,44 @@ nav ul li a:hover {
     text-decoration: underline;
 
 }
+
+
+/* =================================
+   15. GUIDES RESPONSIVENESS
+================================= */
+
+/* Tablet screens */
+
+@media (max-width: 900px) {
+
+    .guides-grid {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+}
+
+/* Mobile screens */
+
+@media (max-width: 600px) {
+
+    .educational-guides {
+
+        padding: 70px 5%;
+
+    }
+
+    .guides-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .guide-card {
+
+        min-height: 300px;
+
+    }
+
+}
