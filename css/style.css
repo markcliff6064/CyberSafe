@@ -1159,3 +1159,240 @@ nav ul li a:hover {
     }
 
 }
+
+
+
+/* =================================
+   18. ONLINE SCAMS PAGE
+================================= */
+
+/* Page introduction */
+
+.scams-hero {
+
+    padding: 110px 8% 90px;
+
+    text-align: center;
+
+    background-color: var(--background);
+
+}
+
+.scams-hero h1 {
+
+    font-size: 48px;
+
+    line-height: 1.2;
+
+    max-width: 850px;
+
+    margin: 20px auto;
+
+}
+
+.scams-hero h1 span {
+
+    color: var(--primary);
+
+}
+
+.scams-hero > p:last-child {
+
+    color: var(--secondary-text);
+
+    font-size: 16px;
+
+    line-height: 1.8;
+
+    max-width: 700px;
+
+    margin: auto;
+
+}
+
+
+/* =================================
+   19. SCAM TYPES
+================================= */
+
+.scam-types {
+
+    padding: 90px 8%;
+
+    background-color: #131F30;
+
+}
+
+.scam-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 25px;
+
+}
+
+.scam-card {
+
+    background-color: var(--surface);
+
+    border: 1px solid #34475B;
+
+    border-radius: 12px;
+
+    padding: 30px;
+
+    transition: 0.3s ease;
+
+}
+
+.scam-card:hover {
+
+    transform: translateY(-5px);
+
+    border-color: var(--primary);
+
+}
+
+.scam-number {
+
+    color: var(--primary);
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+}
+
+.scam-card h3 {
+
+    font-size: 21px;
+
+    margin: 20px 0 12px;
+
+}
+
+.scam-card p {
+
+    color: var(--secondary-text);
+
+    font-size: 14px;
+
+    line-height: 1.8;
+
+}
+
+.scam-card .scam-example {
+
+    background-color: rgba(183, 243, 107, 0.08);
+
+    border-left: 3px solid var(--primary);
+
+    padding: 12px;
+
+    margin-top: 20px;
+
+}
+
+
+/* =================================
+   20. WARNING SIGNS
+================================= */
+
+.scam-warning {
+
+    padding: 90px 8%;
+
+    background-color: var(--background);
+
+}
+
+.warning-list {
+
+    max-width: 900px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px;
+
+}
+
+.warning-item {
+
+    background-color: var(--surface);
+
+    border: 1px solid #34475B;
+
+    border-radius: 10px;
+
+    padding: 25px;
+
+}
+
+.warning-item h3 {
+
+    font-size: 17px;
+
+    margin-bottom: 10px;
+
+}
+
+.warning-item p {
+
+    color: var(--secondary-text);
+
+    font-size: 14px;
+
+    line-height: 1.8;
+
+}
+
+
+/* =================================
+   21. SCAM ACTION SECTION
+================================= */
+
+.scam-action {
+
+    padding: 90px 8%;
+
+    text-align: center;
+
+    background-color: #131F30;
+
+}
+
+.scam-action h2 {
+
+    font-size: 35px;
+
+    max-width: 700px;
+
+    margin: 20px auto;
+
+}
+
+.scam-action h2 span {
+
+    color: var(--primary);
+
+}
+
+.scam-action > p:not(.section-label) {
+
+    color: var(--secondary-text);
+
+    max-width: 700px;
+
+    margin: 15px auto;
+
+    font-size: 15px;
+
+    line-height: 1.8;
+
+}
