@@ -1877,3 +1877,91 @@ nav ul li a:hover {
     font-weight: bold;
 
 }
+
+
+/* 29. PASSWORD PAGE RESPONSIVENESS */
+
+@media (max-width: 900px) {
+
+    .password-managers {
+
+        grid-template-columns: 1fr;
+
+        gap: 35px;
+
+    }
+
+    .factor-content {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .factor-arrow {
+
+        transform: rotate(90deg);
+
+        text-align: center;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .password-hero {
+
+        padding: 80px 5%;
+
+    }
+
+    .password-hero h1 {
+
+        font-size: 36px;
+
+    }
+
+    .strong-passwords,
+    .password-mistakes,
+    .password-managers,
+    .two-factor,
+    .password-checklist {
+
+        padding: 70px 5%;
+
+    }
+
+    .password-grid,
+    .mistakes-container {
+
+        grid-template-columns: 1fr;
+
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .password-hero h1 {
+
+        font-size: 30px;
+
+    }
+
+    .manager-content h2,
+    .password-checklist h2 {
+
+        font-size: 28px;
+
+    }
+
+    .password-card,
+    .mistake-item,
+    .manager-note,
+    .factor-card {
+
+        padding: 22px;
+
+    }
+
+}
